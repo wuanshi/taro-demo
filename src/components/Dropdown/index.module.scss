@@ -1,0 +1,76 @@
+.wrapper {
+  position: relative;
+  background-color: #FFFFFF;
+
+  .nav {
+    position: relative;
+    z-index: 12;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    box-shadow: inset 0px -1px 0px 0px #e7e7e7;
+    background: #FFFFFF;
+
+    .navItem {
+      flex: 1;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      white-space: nowrap;
+      color: #4F5153;
+      font-size: 28px;
+      font-weight: 400;
+      -webkit-tap-highlight-color: transparent;
+      cursor: pointer;
+
+
+      .icon {
+        margin-left: 20px;
+        font-size: 36px;
+        transition: all 0.3s;
+      }
+    }
+
+    .open {
+      color: #1890ff;
+
+      .icon {
+        transform: rotate(180deg);
+      }
+    }
+
+    .selected {
+      color: #1890ff;
+    }
+  }
+
+  .popup {
+    box-sizing: border-box;
+    z-index: 11;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    background-color: #FFFFFF;
+    max-height: 600px;
+    overflow-y: auto;
+    transition: all 0.3s ease-in;
+
+    &.show {
+      top: 100%;
+    }
+
+    &.hide {
+      visibility: hidden;
+    }
+  }
+
+  .mask {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba($color: #000000, $alpha: 0.4);
+    z-index: 10;
+  }
+}
