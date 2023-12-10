@@ -1,5 +1,7 @@
 
 
+## [2.0.2](https://github.com/wuanshi/taro-demo/compare/2.0.0...2.0.2) (2023-12-10)
+
 ## [2.0.1](https://github.com/wuanshi/taro-demo/compare/2.0.0...2.0.1) (2023-12-10)
 
 # 2.0.0 (2023-12-10)
