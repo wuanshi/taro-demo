@@ -1,5 +1,12 @@
 
 
+# [4.1.0](https://github.com/wuanshi/taro-demo/compare/4.0.0...4.1.0) (2024-01-10)
+
+
+### Features
+
+* 🎸 release: v4.1.0 ([8d8f23f](https://github.com/wuanshi/taro-demo/commit/8d8f23f2e5e0e325dff50f2b45424e0057ad37c8))
+
 # [4.0.0](https://github.com/wuanshi/taro-demo/compare/2.1.1...4.0.0) (2024-01-10)
 
 
