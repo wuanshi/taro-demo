@@ -1,5 +1,22 @@
 
 
+# [4.0.0](https://github.com/wuanshi/taro-demo/compare/2.1.1...4.0.0) (2024-01-10)
+
+
+### Bug Fixes
+
+* 🐛 test fix version ([745b110](https://github.com/wuanshi/taro-demo/commit/745b110520d86007bef99ec9a70607434fd24b12))
+
+
+### Features
+
+* 🎸 version 3.1.0 ([3c3349a](https://github.com/wuanshi/taro-demo/commit/3c3349af96a0452a9ac61917e7207c0b45e8fc2d))
+
+
+### BREAKING CHANGES
+
+* 🧨 2.1.2
+
 # [3.0.0](https://github.com/wuanshi/taro-demo/compare/2.1.1...3.0.0) (2024-01-10)
 
 
