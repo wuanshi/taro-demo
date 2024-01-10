@@ -1,0 +1,33 @@
+.h5-table {
+  border: 1px solid #ddd;
+  border-top: none;
+}
+
+.h5-tr {
+  display: flex !important;
+  box-shadow: inset 0 1px 0 #ddd;
+  border-color: #ddd !important;
+}
+
+.h5-td {
+  flex-shrink: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  border-right: 1px solid #ddd;
+  text-align: center;
+
+  &:last-child {
+    border-right: none;
+  }
+}
+
+.taro_html {
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: auto;
+}
