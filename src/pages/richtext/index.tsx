@@ -3,7 +3,8 @@ import { View } from "@tarojs/components";
 import "@tarojs/taro/html5.css";
 import "./index.scss";
 
-const TableEl = `<table><colgroup><col style="width: 38.4901%;" width="348" /><col width="243" /><col /><col /></colgroup>
+const TableEl = `
+<table><colgroup><col style="width: 38.4901%;" width="348" /><col width="243" /><col /><col /></colgroup>
 <tbody>
 <tr>
 <td data-sheet-value="&quot;项目名称&quot;">项目名称</td>
